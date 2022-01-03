@@ -4,6 +4,9 @@ const choices = ["rock", "paper", "scissors"];
 
 let userChoice = undefined;
 
+/**
+ * below function works, checked in dev tools, when i press on one button it shows
+ */
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         userChoice = button.getAttribute('data-choice');
