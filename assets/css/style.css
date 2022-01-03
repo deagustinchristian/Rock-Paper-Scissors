@@ -39,7 +39,7 @@ body {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
-    height: 450px; /* maybe adjust this later */
+    height: 500px; /* maybe adjust this later */
     max-height: 100%;
 }
 
@@ -81,14 +81,20 @@ h3 {
 }
 
 .game-area {
-
+    width: 300px;
+    height: 275px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 /* styling for the three images, rock paper scissors */
 .game-btn {
     background-color: transparent;
     border: none;
-    padding: 5px;
+    padding: 20px;
 }
 
 .rules-btn {
