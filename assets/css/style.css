@@ -51,6 +51,7 @@ header {
     margin-bottom: 20px;
 }
 
+/* styling for the name of the game */
 h1 {
     margin: 0;
     display: flex;
@@ -59,6 +60,7 @@ h1 {
     line-height: 1.2;
 }
 
+/* styling for the score box */
 h3 {
     color: darkslategray;
     margin: 0;
@@ -82,10 +84,11 @@ h3 {
 
 }
 
+/* styling for the three images, rock paper scissors */
 .game-btn {
     background-color: transparent;
-    border: 0px !important; /* need to use important here cause it inherits border otherwise */
-
+    border: none;
+    padding: 5px;
 }
 
 .rules-btn {
@@ -102,4 +105,8 @@ h3 {
     left: 20px;
 }
 
+/* rule button changes color when hovered over */
+.rules-btn:hover {
+    color: coral; /* check color later */
+}
 
