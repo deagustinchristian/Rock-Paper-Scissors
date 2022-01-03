@@ -33,7 +33,7 @@ body {
 /* code on line 35-37 i reused from Art Classes assignment */
 .container {
     background-color: #ffffff6e;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
     width: 600px;
@@ -48,6 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -74,4 +75,31 @@ h3 {
     color: black;
     font-size: x-large;
     margin: 0;
+    font-weight: 800;
 }
+
+.game-area {
+
+}
+
+.game-btn {
+    background-color: transparent;
+    border: 0px !important; /* need to use important here cause it inherits border otherwise */
+
+}
+
+.rules-btn {
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: inherit;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+}
+
+
