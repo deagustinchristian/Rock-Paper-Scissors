@@ -36,7 +36,7 @@ body {
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
-    width: 600px;
+    width: 75%;
     max-width: 100%;
     margin: 0 auto;
     height: 500px; /* maybe adjust this later */
@@ -46,7 +46,7 @@ body {
 /* title and score area */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -69,8 +69,8 @@ h3 {
 }
 
 .score-box {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .score-box p {
@@ -80,9 +80,17 @@ h3 {
     font-weight: 800;
 }
 
+.player-count, .computer-count {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 1rem;
+}
+
 .game-area {
     width: 300px;
-    height: 275px;
+    height: 345px;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
