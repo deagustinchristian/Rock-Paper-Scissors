@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll('.game-btn');
 const choices = ["rock", "paper", "scissors"];
-const scoreEl = document.getElementById('score');
-
+const playerScore = document.getElementById('player-score');
+const computerScore = document.getElementById('computer-score');
 
 let score = 0;
 let userChoice = undefined;
@@ -30,16 +30,16 @@ function checkWinner() {
         (userChoice === 'scissors' && computerChoice === 'paper')
     ) {
         //user wins
-        updateScore(1);
+        updatePlayerScore(1);
     } else {
         //user lost
-        updateScore(-1);
+        updateComputerScore(1);
     }
 }
 
 function updateScore(value) {
-    score += value;
-    scoreEl.innerText = score;
+    playerScore += value;
+    playerScore.innerText = score;
 }
 /**
  * below function works, tried in dev tools and computer choices are working
