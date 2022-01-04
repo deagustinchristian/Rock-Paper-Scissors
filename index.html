@@ -11,7 +11,7 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <header>
             <h1>
                 Rock Paper Scissor
@@ -28,21 +28,28 @@
             </div>
         </div>
         
-        <section class="game-area">
+        <div class="game-area">
             <button class="game-btn btn-rock" data-choice="rock" aria-label="Rock">
                 <img src="./assets/images/rock.png" alt="rock icon">
             </button>
             <button class="game-btn btn-paper" data-choice="paper" aria-label="Paper">
                 <img src="./assets/images/paper.png" alt="paper icon">
             </button>
-            <button class="game-btn btn-scissors" data-choice="scissors" aria-label="Scissors">
-                <img src="./assets/images/scissors.png" alt="scissors icon">
+            <button class="game-btn btn-scissors" data-choice="scissor" aria-label="Scissors">
+                <img src="./assets/images/scissors.png" alt="scissor icon">
             </button>
-        </section>
-        
-        <button class="rules-btn">Rules</button>
+        </div>
 
-    </div>
+        <div class="choose-button">Choose One!</div>
+        <div class="count-down">Moves Left: 10</div>
+
+        <button class="rules-btn">Rules</button>
+        
+        <div class="final-result"></div>
+    
+        <button class="restart"></button>
+    </section>
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>

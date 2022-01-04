@@ -36,10 +36,10 @@ body {
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
-    width: 75%;
+    width: 85%;
     max-width: 100%;
     margin: 0 auto;
-    height: 500px; /* maybe adjust this later */
+    height: 600px; /* maybe adjust this later */
     max-height: 100%;
 }
 
@@ -119,9 +119,9 @@ h3 {
     padding: 10px 15px;
     font-size: 15px;
     letter-spacing: 2px;
-    position: fixed;
     bottom: 30px;
     left: 20px;
+    position: relative;
 }
 
 /* rule button changes color when hovered over */
@@ -129,3 +129,18 @@ h3 {
     color: coral; /* check color later */
 }
 
+.choose-button {
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    margin: 0;
+    font-weight: 800;
+}
+
+.count-down {
+    text-align: center;
+    color: black;
+    font-size: large;
+    margin: 0;
+    font-weight: 800;
+}
