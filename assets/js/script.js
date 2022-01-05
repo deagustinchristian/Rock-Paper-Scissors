@@ -88,3 +88,9 @@ function checkWinner() {
     }   
     return false;
 }
+
+/**
+ * all of the above code works
+ * player/computer score increments by 1
+ * add so that each round shows who choose what and who wins
+ */
