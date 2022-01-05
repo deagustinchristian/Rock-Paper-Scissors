@@ -23,7 +23,9 @@ function compareInputs(playerInput, computerInput) {
         alert(`${currentGame} is a Tie`);
         return;
     }
-
+    /**
+     * if player chooses Rock
+     */
     if (playerInput === "Rock") {
         if (computerInput === "Scissors") {
             alert(`${currentGame} = You Win!`);
@@ -31,7 +33,9 @@ function compareInputs(playerInput, computerInput) {
             alert(`${currentGame} = Computer Wins!`);
         }
     }
-
+    /**
+     * if player chooses Paper
+     */
     else if (playerInput === "Paper") {
         if (computerInput === "Rock") {
             alert(`${currentGame} = You Win!`);
@@ -39,7 +43,9 @@ function compareInputs(playerInput, computerInput) {
             alert(`${currentGame} = Computer Wins!`);
         }
     }
-
+    /**
+     * if player chooses Scissors
+     */
     else if (playerInput === "Scissors") {
         if (computerInput === "Paper") {
             alert(`${currentGame} = You Win!`);
@@ -48,3 +54,8 @@ function compareInputs(playerInput, computerInput) {
         }
     }
 }
+
+/**
+ * Now i want to add the score so either computer or player and set a limit 
+ * to maybe first to 5 wins
+ */
