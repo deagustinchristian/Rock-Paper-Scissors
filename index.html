@@ -12,14 +12,14 @@
 </head>
 <body>
     <section class="game">
-        <!--Title -->
+        
         <header>
             <div class="title">
                 <h1>Rock Paper Scissors</h1>
             </div>
         </header>
 
-          <!--Display Score of player and computer -->
+          <!-- Score of player and computer -->
         <div class="score">  
             <div class="playerScore">
                 <h2>Player</h2>
@@ -30,28 +30,28 @@
                 <p class="computer-count count">0</p>
             </div>
         </div>
-        <!--Options available to player to play game -->
+        <!-- Player game buttons/images -->
         <div class="game-area">
-            <button class="game-btn rock" data-choice="rock" aria-label="Rock">
+            <button class="game-btn rock" value="rock" aria-label="rock">
                 <img src="./assets/images/rock.png" alt="rock icon">
             </button>
-            <button class="game-btn paper" data-choice="paper" aria-label="Paper">
+            <button class="game-btn paper" value="paper" aria-label="paper">
                 <img src="./assets/images/paper.png" alt="paper icon">
             </button>
-            <button class="game-btn scissors" data-choice="scissors" aria-label="Scissors">
+            <button class="game-btn scissors" value="scissors" aria-label="scissors">
                 <img src="./assets/images/scissors.png" alt="scissors icon">
             </button>
         </div>
 
         <div class="move">Choose your move</div>
           
-          <!--Number of moves left before game ends -->
+          <!--Number of moves left before game ends, maybe remove this -->
         <div class="tries-left">Tries Left: 10 </div>
           
           <!--Final result of game -->
         <div class="final-result"></div>
           
-          <!--Reload the game -->
+          <!-- Restart the game -->
         <button class="restart"></button>
   
     </section>
