@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    justify-content: center;
 }
 
 /* Linear gradient animation */
@@ -31,7 +32,7 @@ body {
   }
 
 /* code on line 35-37 i reused from Art Classes assignment */
-.container {
+/* .container {
     background-color: #ffffff6e;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(12px);
@@ -39,9 +40,9 @@ body {
     width: 85%;
     max-width: 100%;
     margin: 0 auto;
-    height: 600px; /* maybe adjust this later */
+    height: 600px; 
     max-height: 100%;
-}
+} */
 
 /* title and score area */
 header {
@@ -49,26 +50,18 @@ header {
     justify-content: center;
     padding: 20px;
     margin-bottom: 20px;
-}
-
-/* styling for the name of the game */
-h1 {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
     text-transform: uppercase;
-    line-height: 1.2;
 }
 
 /* styling for the score box */
-h3 {
+h2 {
     color: darkslategray;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.score-box {
+.score {
     display: flex;
     justify-content: space-evenly;
 }
@@ -89,7 +82,7 @@ h3 {
     margin-top: 1rem;
 }
 
-/* main game area / glass effect */
+/* main game area  */
 .game-area {
     width: 300px;
     height: 345px;
@@ -112,40 +105,3 @@ h3 {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/* Rule button */
-.rules-btn {
-    background-color: transparent;
-    border: 1px solid black;
-    font-family: inherit;
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    bottom: 30px;
-    left: 20px;
-    position: relative;
-}
-
-/* rule button changes color when hovered over */
-.rules-btn:hover {
-    color: coral; /* check color later */
-}
-
-/* call to action text */
-.choose-button {
-    text-align: center;
-    color: black;
-    font-size: x-large;
-    margin: 0;
-    font-weight: 800;
-}
-
-/* displays how many turns are left */
-.count-down {
-    text-align: center;
-    color: black;
-    font-size: large;
-    margin: 0;
-    font-weight: 800;
-}

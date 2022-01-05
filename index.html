@@ -11,43 +11,49 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <section class="container">
+    <section class="game">
+        <!--Title -->
         <header>
-            <h1>
-                Rock Paper Scissors
-            </h1>
-        </header>
-        <div class="score-box">
-            <div class="player-score">
-                <h3>Player</h3>
-                <p class="player-count">0</p>
+            <div class="title">
+                <h1>Rock Paper Scissors</h1>
             </div>
-                <div class="computer-score">
-                <h3>Computer</h3>
-                <p class="computer-count">0</p>
+        </header>
+
+          <!--Display Score of player and computer -->
+        <div class="score">  
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="player-count count">0</p>
+            </div>       
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="computer-count count">0</p>
             </div>
         </div>
-        
+        <!--Options available to player to play game -->
         <div class="game-area">
-            <button class="game-btn btn-rock" data-choice="rock" aria-label="Rock">
+            <button class="game-btn rock" data-choice="rock" aria-label="Rock">
                 <img src="./assets/images/rock.png" alt="rock icon">
             </button>
-            <button class="game-btn btn-paper" data-choice="paper" aria-label="Paper">
+            <button class="game-btn paper" data-choice="paper" aria-label="Paper">
                 <img src="./assets/images/paper.png" alt="paper icon">
             </button>
-            <button class="game-btn btn-scissors" data-choice="scissors" aria-label="Scissors">
+            <button class="game-btn scissors" data-choice="scissors" aria-label="Scissors">
                 <img src="./assets/images/scissors.png" alt="scissors icon">
             </button>
         </div>
 
-        <div class="choose-button">Choose One!</div>
-        <div class="count-down">Moves Left: 10</div>
-
-        <button class="rules-btn">Rules</button>
-        
+        <div class="move">Choose your move</div>
+          
+          <!--Number of moves left before game ends -->
+        <div class="tries-left">Tries Left: 10 </div>
+          
+          <!--Final result of game -->
         <div class="final-result"></div>
-    
+          
+          <!--Reload the game -->
         <button class="restart"></button>
+  
     </section>
 
     <script src="assets/js/script.js"></script>
