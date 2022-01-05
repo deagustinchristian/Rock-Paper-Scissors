@@ -10,6 +10,12 @@ options.forEach((option) => {
         const computerInput = computerOptions[Math.floor(Math.random() * 3)];
 
         compareInputs(playerInput, computerInput);
+        
+        updateScore();
+        if(checkWinner()){
+            playerScore = computerScore = 0;
+            updateScore();
+        }
     });
 });
 
@@ -29,8 +35,10 @@ function compareInputs(playerInput, computerInput) {
     if (playerInput === "Rock") {
         if (computerInput === "Scissors") {
             alert(`${currentGame} = You Win!`);
+            playerScore++;
         } else {
             alert(`${currentGame} = Computer Wins!`);
+            computerScore++;
         }
     }
     /**
@@ -39,8 +47,10 @@ function compareInputs(playerInput, computerInput) {
     else if (playerInput === "Paper") {
         if (computerInput === "Rock") {
             alert(`${currentGame} = You Win!`);
+            playerScore++;
         } else {
             alert(`${currentGame} = Computer Wins!`);
+            computerScore++;
         }
     }
     /**
@@ -49,8 +59,10 @@ function compareInputs(playerInput, computerInput) {
     else if (playerInput === "Scissors") {
         if (computerInput === "Paper") {
             alert(`${currentGame} = You Win!`);
+            playerScore++;
         } else {
             alert(`${currentGame} = Computer Wins!`)
+            computerScore++;
         }
     }
 }
@@ -59,3 +71,20 @@ function compareInputs(playerInput, computerInput) {
  * Now i want to add the score so either computer or player and set a limit 
  * to maybe first to 5 wins
  */
+
+function updateScore() {
+    document.getElementById("player-count").textContent = playerScore;
+    document.getElementById("computer-count").textContent = computerScore;
+}
+
+function checkWinner() {
+    if (playerScore === 5 || computerScore === 5) {
+        const winner =
+            playerScore === 5
+                ? "Congratulations! You Won!"
+                : "Computer wins! Better luck next time!";
+        alert(winner);
+        return true;
+    }   
+    return false;
+}

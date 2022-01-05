@@ -31,19 +31,6 @@ body {
     }
   }
 
-/* code on line 35-37 i reused from Art Classes assignment */
-/* .container {
-    background-color: #ffffff6e;
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(12px);
-    border-radius: 10px;
-    width: 85%;
-    max-width: 100%;
-    margin: 0 auto;
-    height: 600px; 
-    max-height: 100%;
-} */
-
 /* title and score area */
 header {
     display: flex;
@@ -55,7 +42,7 @@ header {
 
 /* styling for the score box */
 h2 {
-    color: darkslategray;
+    color: black;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -66,15 +53,8 @@ h2 {
     justify-content: space-evenly;
 }
 
-.score-box p {
-    color: black;
-    font-size: x-large;
-    margin: 0;
-    font-weight: 800;
-}
-
 /* displays the player and computer score */
-.player-count, .computer-count {
+#player-count, #computer-count {
     display: flex;
     justify-content: space-evenly;
     font-size: x-large;
@@ -105,3 +85,7 @@ h2 {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.choose {
+    display: flex;
+    align-items: center;
+}

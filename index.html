@@ -22,31 +22,30 @@
           <!-- Score of player and computer -->
         <div class="score">  
             <div class="playerScore">
-                <h2>Player</h2>
-                <p class="player-count count">0</p>
+                <h2>
+                    Player <span id="player-count">0</span>
+                </h2>
             </div>       
             <div class="computerScore">
-                <h2>Computer</h2>
-                <p class="computer-count count">0</p>
+                <h2>
+                    Computer <span id="computer-count">0</span>
+                </h2>
             </div>
         </div>
         <!-- Player game buttons/images -->
         <div class="game-area">
-            <button class="game-btn rock" value="rock" aria-label="rock">
+            <button class="game-btn rock" value="Rock" aria-label="rock">
                 <img src="./assets/images/rock.png" alt="rock icon">
             </button>
-            <button class="game-btn paper" value="paper" aria-label="paper">
+            <button class="game-btn paper" value="Paper" aria-label="paper">
                 <img src="./assets/images/paper.png" alt="paper icon">
             </button>
-            <button class="game-btn scissors" value="scissors" aria-label="scissors">
+            <button class="game-btn scissors" value="Scissors" aria-label="scissors">
                 <img src="./assets/images/scissors.png" alt="scissors icon">
             </button>
         </div>
 
-        <div class="move">Choose your move</div>
-          
-          <!--Number of moves left before game ends, maybe remove this -->
-        <div class="tries-left">Tries Left: 10 </div>
+        <div class="choose">Choose one of the above!</div>
           
           <!--Final result of game -->
         <div class="final-result"></div>
