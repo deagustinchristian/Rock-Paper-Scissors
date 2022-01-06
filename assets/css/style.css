@@ -68,7 +68,7 @@ h2 {
     height: 345px;
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
 }
@@ -89,3 +89,14 @@ h2 {
     display: flex;
     align-items: center;
 }
+
+h3 {
+    display: flex;
+    text-align: center;
+}
+
+.rules {
+    display: flex;
+    justify-content: space-between;
+}
+
