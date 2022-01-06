@@ -93,5 +93,6 @@ function checkWinner() {
  * all of the above code works
  * player/computer score increments by 1
  * add so that each round shows who choose what and who wins
- * restart button?
+ * restart button? Need to figure out how to hide main buttons and display player/computer choice buttons
  */
+

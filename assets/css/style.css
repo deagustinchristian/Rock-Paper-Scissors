@@ -90,13 +90,7 @@ h2 {
     align-items: center;
 }
 
-h3 {
+#rules-title {
     display: flex;
     text-align: center;
 }
-
-.rules {
-    display: flex;
-    justify-content: space-between;
-}
-
