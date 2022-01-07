@@ -96,3 +96,6 @@ function checkWinner() {
  * restart button? Need to figure out how to hide main buttons and display player/computer choice buttons
  */
 
+const pickPlayerHand = (hand) => {
+    console.log(hand);
+}
