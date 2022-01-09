@@ -1,108 +1,124 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Scissors
 
-Welcome deagustinchristian,
+Art Classes is a website for anyone interested in either learning how to make beautifull works of art whether it be by paint brush, with their hands molding clay or by using the keyboard on their computer. Art Classes offers something for everyone.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Looking good on different devices](https://github.com/deagustinchristian/art-classes/blob/34d5febaba44d9e3ef095d46e5c612fdd4394e8a/assets/images/Responsive%20design.jpeg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - The full responsive navigation bar directs the user to the About Us section, Classes & Sign Up section and to the Contact Us and social media links section of the website.
+  - This allows the user to navigate the website fast and easy without ever having to leave the website except for the social media links, those open in a new tab.
+  - The logo and navigation menu is fixed so that when you scoll down it stays in place, always visible.
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/deagustinchristian/art-classes/blob/f61a8e2c163d60a2e39bd1f44e431d63e61a1cfd/assets/images/Nav%20bar%20ART%20CLASSES.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing page includes a background image with text overlay to welcome the visitor and let them now what this website is about.
+  - This section introduces the user to ART CLASSES and draws them in with a stunning background image.
 
-A blue button should appear to click: _Make Public_,
+![Landing Page](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/Art%20classes%20landing%20page.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
+- __About Us__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The About Us section allows the user to briefly get to know each of the teachers and see what their specialties are. 
+  - Lovely profile pictures of each teacher along with a small description of each one will let the user know that Art Classes has something for everyone. 
 
-To log into the Heroku toolbelt CLI:
+![About Us](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/About%20Us.jpeg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Classes & Sign Up section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section allows for the User to fast and easy see where, when and by who the next classes are 
+  
+  - This section will be updated as these times and classes change to keep the user up to date.
+  
+  - The Sign Up section is positioned next to the Classes so that the User can fast and easy sign up for which ever class they wish to participate in without having to leave the site or scroll further away to sign up for a class.
+  
+  - The Sign Up form requires validation, Name, E-mail address and Class name in order to work, the Sign me Up! button has added hover effect and changes to same color as the navigation menu. 
 
-------
+![Classes & Sign Up](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/Classes&signup.jpeg)
 
-## Release History
+- __The Footer__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The footer section contains the Contact Us information along with the social media links, this allows for the user to either contact us via email or any of our social media accounts easily.
+  
+  - The footer section includes links to the relevant social media sites for Art Classes. The links will open in a new tab to allow easy navigation for the user. 
+  
+  - Contact Us and the social media icons all have the same color as the navigation menu and Sign Me up! when you hover over those, lightcoral.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Footer](https://github.com/deagustinchristian/art-classes/blob/103ae5eeed579cc45958d5e890edf0c0be3a1c86/assets/images/footer.jpeg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Features Left to Implement
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- A future idea to implement would be a Video section where each teacher could hold on-line classes and students could login and both participate live or access old course material.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Another future idea could be to implement an online gallery where Users could browse and purschase works of art both made by teachers and students.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- I have tested the site on Chrome, Safari and Firefox, both on my laptop and on my Iphone 12 Pro Max. Firefox on my laptop needed some extra work because it didnt support the
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+"backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);"
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+codes directly, I googled the issue and in a later update they will be adding this function to their browser, for now all it took was to enable it in the settings. It works fine on mobile devices without having to do anything.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Also, the website looks good and all functions work on Ipad Pro, Iphone 12 pro Max, Iphone X and MacBook Pro 15´.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Using the Devstools I can confirm this website is responsive, looks good and functions on all standard screen sizes.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- The Sign Up form works properly, requieres entries in evry field and the Sign me Up button changes color when hovered.
 
-------
 
-## FAQ about the uptime script
+### Validator Testing 
 
-**Why have you added this script?**
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdeagustinchristian.github.io%2Fart-classes%2F)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeagustinchristian.github.io%2Fart-classes%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-**How will this affect me?**
+  - Lighthouse
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+      ![Lighthouse result](https://github.com/deagustinchristian/art-classes/blob/4e18944f975f14f62debd6d6b68db1228c0c25dc/assets/images/Lighthouse.jpeg)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Unfixed Bugs
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+As far as I know there are no unfixed bugs. 
 
-**So….?**
+## Deployment
+ 
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The live link can be found here - https://deagustinchristian.github.io/art-classes/index.html 
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Credits 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Content 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- All text on the website was made up by me.
+- The code in the "head" part I got from following along the Love Running videos.
+- The Glass effect on the text overlay I learned by watching Love running and got the idea of a more glass like look from this Instagram account (https://www.instagram.com/p/CV1zwWlFqcs/?utm_medium=share_sheet) 
 
----
+-  The flex box functions I learned and used code from (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and also from here (https://www.w3schools.com/css/css3_flexbox_container.asp)
 
-Happy coding!
+- Instructions on how to implement form validation on the Sign Up page was taken from Love running videos and from this website (https://www.w3schools.com/howto/howto_css_signup_form.asp)
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The background image on the landing page is from Adobe Stock (https://stock.adobe.com/) where Im licensed to download and use 10 images per month.
+- The images used for the teacher profiles I downloaded from Pexels (https://www.pexels.com/) and are free to use.
