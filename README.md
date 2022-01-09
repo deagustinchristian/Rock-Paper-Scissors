@@ -2,7 +2,7 @@
 
 Art Classes is a website for anyone interested in either learning how to make beautifull works of art whether it be by paint brush, with their hands molding clay or by using the keyboard on their computer. Art Classes offers something for everyone.
 
-![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/Responsive%20design%20image.jpeg)
+![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/Lighthouse%20RPS%20game.jpeg)
 
 ## Features 
 
