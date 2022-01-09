@@ -35,15 +35,15 @@
         <!-- Player game buttons/images -->
         <div class="game-area">
             <button class="game-btn rock" value="Rock" aria-label="rock">
-                <img src="./assets/images/rock.png" alt="rock icon" onclick="pickPlayerHand('Rock')">
+                <img src="./assets/images/rock.png" alt="rock icon">
             </button>
             <button class="game-btn paper" value="Paper" aria-label="paper">
-                <img src="./assets/images/paper.png" alt="paper icon" onclick="pickPlayerHand('Paper')">
+                <img src="./assets/images/paper.png" alt="paper icon">
             </button>
             <button class="game-btn scissors" value="Scissors" aria-label="scissors">
-                <img src="./assets/images/scissors.png" alt="scissors icon" onclick="pickPlayerHand('Scissors')">
+                <img src="./assets/images/scissors.png" alt="scissors icon">
             </button>
-            <h3 class="result-text">TIE!</h3>
+            <h3 class="result-text"></h3>
         </div>
         
         <div class="choose">First to 5 wins! Choose one of the above!</div>
@@ -51,12 +51,21 @@
           <!--Final result of game -->
         <div class="final-result"></div>
         
-        <footer>
-            <div class="rules">
-               <button id="rules-btn"><strong>Rules</strong></button>
-           </div>
-       </footer>
-
+        
+        <div class="rules">
+            <button class="rules-btn"><strong>Rules</strong></button>
+        </div>
+        <div class="rule-styles">
+            <p>
+                Rock beats Scissors
+            </p>
+            <p>
+                Scissors beats Paper
+            </p>
+            <p>
+                Paper beats Rock
+            </p>
+        </div>
     </section>
     
     <script src="assets/js/script.js"></script>
