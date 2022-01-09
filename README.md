@@ -17,30 +17,32 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 -__The Game options__
 
-- The game clearly states that first to 5 points wins the match and urges the player to choose one of the images.
+- The game clearly states that first to 5 wins the match and urges the player to choose one of the images.
 
 - The ROCK PAPER SCISSORS buttons have hover effects so as soon as the player hovers over one of them it reacts and temps the player to press on it.
 
-![Game options](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/header.jpeg)
+- The score is updated by 1 point depending on who wins the round.
+
+![Game options](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/game%20options%20hover%20effect.jpeg)
+
+-__Game Results__
+
+- The results are updated according to who wins a round. Either 1 point to the player or 1 point to the computer
+![Player score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins.jpeg)
+
+![Computer score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
 
 - __The Footer__ 
 
-  - The footer section contains the Contact Us information along with the social media links, this allows for the user to either contact us via email or any of our social media accounts easily.
-  
-  - The footer section includes links to the relevant social media sites for Art Classes. The links will open in a new tab to allow easy navigation for the user. 
-  
-  - Contact Us and the social media icons all have the same color as the navigation menu and Sign Me up! when you hover over those, lightcoral.
+  - Contains only the RULES button which when presses upon shows the basic rules of the game and after a fixed amount of seconds dissapears until pressed upon again.
 
-
-![Footer](https://github.com/deagustinchristian/art-classes/blob/103ae5eeed579cc45958d5e890edf0c0be3a1c86/assets/images/footer.jpeg)
+![Footer](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Rules%20button.jpeg)
 
 
 
 ### Features Left to Implement
 
-- A future idea to implement would be a Video section where each teacher could hold on-line classes and students could login and both participate live or access old course material.
-
-- Another future idea could be to implement an online gallery where Users could browse and purschase works of art both made by teachers and students.
+- A future idea to implement would be Spock and Lizard. The images are already added and a function could be made so that after reaching 5 points the SPOCK button gets added, then when the player reaches 10 points the LIZARD button also gets added and the game continues to 20 points before resetting again.
 
 ## Testing 
 
