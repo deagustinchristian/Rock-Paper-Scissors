@@ -33,7 +33,7 @@ options.forEach((option) => {
 
 function compareInputs(playerInput, computerInput) {
 	let gameResult = "";
-	console.log('xx')
+	
 
     /**
      * This checks if its a tie

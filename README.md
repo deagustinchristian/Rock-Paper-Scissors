@@ -28,10 +28,9 @@ against a computer that chooses its options randomly. The first to get 5 points 
 
     - The score is updated according to who wins a round. Either 1 point to the player or 1 point to the computer
 
-![Player score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins.jpeg)
-
 ![Computer score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
 
+![Player score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins.jpeg)
 
 - The game displays who the winner is when one of them has reached 5 points
 
@@ -69,7 +68,11 @@ against a computer that chooses its options randomly. The first to get 5 points 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdeagustinchristian.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-  - Lighthouse
+- Javascript
+    - No errors were found when passing through the official [JSHint validator](https://jshint.com/)
+  
+
+- Lighthouse
 
       ![Lighthouse result](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Lighthouse%20RPS%20game.jpeg)
 
@@ -98,7 +101,7 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
 
 ### Content 
 
-- All text on the website was made up by me.
+- All text on the website was made up by me. I did use Grammarly on this ReadMe file just so the grammar and spelling was as correct as it could be.
 
 - I have used different sources to learn and understand the coding and the concepts of JS, to better understand the concepts of the game and how to make it I studied the following websites and how they did it.
 
