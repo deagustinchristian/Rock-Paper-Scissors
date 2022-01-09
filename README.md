@@ -32,6 +32,12 @@ against a computer that chooses its options randomly. The first to get 5 points 
 
 ![Computer score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
 
+- The game displays who the winner is when either one has reached 5 points
+
+![Player wins](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins.jpeg)
+
+![Computer wins](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
+
  - The match ends when either player or computer reaches 5 points and the game then automatically resets
 
 ![Final winner](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins%20the%20match.jpeg)
@@ -52,9 +58,10 @@ against a computer that chooses its options randomly. The first to get 5 points 
 
 - I have tested the site on Chrome, Safari, and Firefox, both on my laptop and my iPhone 12 Pro Max. The game works as it should on all of them, the score updates as it should, game shows winner or tie of each round as its supposed to do, and game resets when a player or the computer reaches 5 points.
 
-- Also, the website looks good and all functions work on Ipad Pro, iPhone 12 pro-Max, iPhone X, and MacBook Pro 15´.
+- Also, the game looks good and all functions work on Ipad Pro, iPhone 12 pro-Max, iPhone X, and MacBook Pro 15´.
 
 - Using the Devstools I can confirm this website is responsive, looks good, and functions on all standard screen sizes.
+
 
 ### Validator Testing 
 
@@ -68,7 +75,12 @@ against a computer that chooses its options randomly. The first to get 5 points 
 
       ![Lighthouse result](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Lighthouse%20RPS%20game.jpeg)
 
-### Unfixed Bugs
+###  Bugs
+- One bug that kept bothering me was when I pressed a button and the results was shown, it was possible to press on the buttons still and the game would register it. Solved it by using the following code
+    - if (gameArea.classList.contains("results-shown")){ 
+        return;
+
+- Not a bug but I did forget to properly git push alot in the begining which resulted in nothing was saved. Lesson learned.
 
 As far as I know, there are no unfixed bugs. 
 
@@ -90,7 +102,10 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
 
 - All text on the website was made up by me.
 
-- I have used different sources to learn and understand the coding and the concepts of JS, to better understand the concepts of the game and how to make it I studied the following websites and how they did
+- I have used different sources to learn and understand the coding and the concepts of JS, to better understand the concepts of the game and how to make it I studied the following websites and how they did it.
+
+    - The linear gradient effect code I got from this website
+        - (https://www.sliderrevolution.com/resources/css-animated-background)
 
     - This website was really good to get a sense of how the game is built
         - (https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
@@ -105,7 +120,6 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
         - (https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)
         - (https://linuxhint.com/show-or-hide-an-element-on-website-using-javascript/)
         - (https://allyjs.io/tutorials/hiding-elements.html)
-
 
 
 ### Media
