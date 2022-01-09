@@ -1,4 +1,5 @@
 const options = document.querySelectorAll('.game-btn')
+
 let playerScore = 0;
 let computerScore = 0;
 
@@ -12,6 +13,7 @@ options.forEach((option) => {
         compareInputs(playerInput, computerInput);
         
         updateScore();
+
         if(checkWinner()){
             playerScore = computerScore = 0;
             updateScore();
@@ -21,12 +23,15 @@ options.forEach((option) => {
 
 function compareInputs(playerInput, computerInput) {
     const currentGame = `${playerInput} vs ${computerInput}`;
-
+        let gameResult = "";
+        console.log('xx');
     /**
      * This checks if its a tie
      */
     if (playerInput === computerInput) {
-        alert(`${currentGame} is a Tie`);
+        //alert(`${currentGame} is a Tie`);
+        gameResult = "TIE!";
+        flashResults = (gameResult, playerInput, computerInput);
         return;
     }
     /**
@@ -34,10 +39,12 @@ function compareInputs(playerInput, computerInput) {
      */
     if (playerInput === "Rock") {
         if (computerInput === "Scissors") {
-            alert(`${currentGame} = You Win!`);
+            //alert(`${currentGame} = You Win!`);
+            gameResult = "You Win!";
             playerScore++;
         } else {
-            alert(`${currentGame} = Computer Wins!`);
+            //alert(`${currentGame} = Computer Wins!`);
+            gameResult = "Computer Wins!";
             computerScore++;
         }
     }
@@ -46,10 +53,12 @@ function compareInputs(playerInput, computerInput) {
      */
     else if (playerInput === "Paper") {
         if (computerInput === "Rock") {
-            alert(`${currentGame} = You Win!`);
+            //alert(`${currentGame} = You Win!`);
+            gameResult = "You Win!";
             playerScore++;
         } else {
-            alert(`${currentGame} = Computer Wins!`);
+            //alert(`${currentGame} = Computer Wins!`);
+            gameResult = "Computer Wins!";
             computerScore++;
         }
     }
@@ -58,13 +67,35 @@ function compareInputs(playerInput, computerInput) {
      */
     else if (playerInput === "Scissors") {
         if (computerInput === "Paper") {
-            alert(`${currentGame} = You Win!`);
+            //alert(`${currentGame} = You Win!`);
+            gameResult = "You Win!";
             playerScore++;
         } else {
-            alert(`${currentGame} = Computer Wins!`)
+            //alert(`${currentGame} = Computer Wins!`)
+            gameResult = "Computer Wins!";
             computerScore++;
         }
     }
+}
+
+function flashResults(gameResult, playerInput, computerInput) {
+    console.log(gameResult, playerInput, computerInput);
+    let resultText = document.querySelector(".result-text");
+    let gameArea = document.querySelector(".game-area");
+    let player = document.querySelector('.game-btn[value="'+playerInput+'"]');
+    let computer = document.querySelector('.game-btn[value="'+computerInput+'"]');
+
+    gameArea.classList.add('results-shown');
+    player.classList.add('player');
+    computer.classList.add('computer');
+
+    resultText.innerHTML = gameResult;
+
+    window.setTimeout(function(){
+        gameArea.classList.remove('results-shown');
+        player.classList.remove('player');
+        computer.classList.remove('computer');
+    }, 2000);
 }
 
 /**
@@ -87,15 +118,4 @@ function checkWinner() {
         return true;
     }   
     return false;
-}
-
-/**
- * all of the above code works
- * player/computer score increments by 1
- * add so that each round shows who choose what and who wins
- * restart button? Need to figure out how to hide main buttons and display player/computer choice buttons
- */
-
-const pickPlayerHand = (hand) => {
-    console.log(hand);
 }
