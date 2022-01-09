@@ -86,6 +86,7 @@ h2 {
     border: none;
     padding: 20px;
 }
+
 /* Hover effect on the three image buttons */
 .game-btn:hover {
     border-radius: 50%;
@@ -96,7 +97,7 @@ h2 {
     text-align: center;
 }
 
-/* Hides the result text until its called in JSc*/
+/* Hides the result text until its called in JSc */
 .result-text {
 	display: none;
 }
@@ -126,6 +127,7 @@ h2 {
 	display: block;
 }
 
+/* Styling for the RULES button */
 .rules-title {
     display: flex;
     text-align: center;

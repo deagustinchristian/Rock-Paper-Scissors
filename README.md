@@ -11,35 +11,34 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 - __Header__
 
-  - The Header displays the games name: ROCK PAPER SCISSORS
+    - The Header displays the games name: ROCK PAPER SCISSORS
 
 ![Header](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/header.jpeg)
 
 - __The Game options__
 
-- The game clearly states that first to 5 wins the match and urges the player to choose one of the images.
+    - The game clearly states that first to 5 wins the match and urges the player to choose one of the images.
 
-- The ROCK PAPER SCISSORS buttons have hover effects so as soon as the player hovers over one of them it reacts and temps the player to press on it.
+    - The ROCK PAPER SCISSORS buttons have hover effects so as soon as the player hovers over one of them it reacts and temps the player to press on it.
 
-- The score is updated by 1 point depending on who wins the round.
 
 ![Game options](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/game%20options%20hover%20effect.jpeg)
 
 - __Game Results__
 
-- The score is updated according to who wins a round. Either 1 point to the player or 1 point to the computer
+    - The score is updated according to who wins a round. Either 1 point to the player or 1 point to the computer
 
 ![Player score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins.jpeg)
 
 ![Computer score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
 
-- The match ends when either player or computer reaches 5 points and the game then automatically resets
+    - The match ends when either player or computer reaches 5 points and the game then automatically resets
 
 ![Final winner](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins%20the%20match.jpeg)
 
 - __The Footer__ 
 
-  - Contains only the RULES button which when pressed upon shows the basic rules of the game and after a fixed amount of seconds dissapears until pressed upon again.
+    - Contains only the RULES button which when pressed upon shows the basic rules of the game and after a fixed amount of seconds dissapears until pressed upon again.
 
 ![Footer](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Rules%20button.jpeg)
 
@@ -90,6 +89,22 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
 ### Content 
 
 - All text on the website was made up by me.
+
+- I have used different sources to learn and understand the coding and the concepts of JS, to better understand the concepts of the game and how to make it I studied the following websites and how they did
+
+    - This was really good to get a sense on how the game is built 
+    (https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+    
+    - I used code from this website for the compareInput parts and also for the game ending when the points reaches 5(https://sebhastian.com/rock-paper-scissors-javascript/)
+
+    - I learned more about the classList and how to use it via this website
+    (https://www.w3schools.com/jsref/prop_element_classlist.asp)
+
+    - I learned how to hide and show elements via these websites
+    (https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)
+    (https://linuxhint.com/show-or-hide-an-element-on-website-using-javascript/)
+    (https://allyjs.io/tutorials/hiding-elements.html)
+
 
 
 ### Media

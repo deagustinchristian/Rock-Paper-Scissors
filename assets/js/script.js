@@ -1,11 +1,10 @@
 const options = document.querySelectorAll('.game-btn');
 
-
 let playerScore = 0;
 let computerScore = 0;
 
 /**
- * below code has a click event, which means that the player choice is registered when clicked on
+ * below code has a click event, which means that the players choice is registered when clicked on
  */
 options.forEach((option) => {
     option.addEventListener("click", function () {
@@ -44,6 +43,7 @@ function compareInputs(playerInput, computerInput) {
 		flashResults(gameResult, playerInput, computerInput);
 		return;
     }
+
     /**
      * if player chooses Rock
      */
@@ -56,6 +56,7 @@ function compareInputs(playerInput, computerInput) {
             computerScore++;
         }
     }
+
     /**
      * if player chooses Paper
      */
@@ -68,6 +69,7 @@ function compareInputs(playerInput, computerInput) {
             computerScore++;
         }
     }
+
     /**
      * if player chooses Scissors
      */
@@ -91,8 +93,8 @@ function flashResults(gameResult, playerInput, computerInput) {
 	console.log(gameResult, playerInput,computerInput);
 	let resultText = document.querySelector(".result-text");
 	let gameArea = document.querySelector(".game-area");
-	let player = document.querySelector('.game-btn[value="'+playerInput+'"]');
-	let computer = document.querySelector('.game-btn[value="'+computerInput+'"]');
+	let player = document.querySelector('.game-btn[value="'+playerInput+'"]'); 
+	let computer = document.querySelector('.game-btn[value="'+computerInput+'"]'); 
 	
 	gameArea.classList.add('results-shown');
 	player.classList.add('player');
