@@ -7,7 +7,7 @@ let computerScore = 0;
 options.forEach((option) => {
     option.addEventListener("click", function () {
         let gameArea = document.querySelector(".game-area");
-            if (gameArea.classList.contains("results-shown")){
+            if (gameArea.classList.contains("results-shown")){ /** Before it was possible to press result button, this code prevents that */
                 return;
             }
         const playerInput = this.value;
