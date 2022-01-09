@@ -4,14 +4,20 @@ const options = document.querySelectorAll('.game-btn');
 let playerScore = 0;
 let computerScore = 0;
 
+/**
+ * below code has a click event, which means that the player choice is registered when clicked on
+ */
 options.forEach((option) => {
     option.addEventListener("click", function () {
         let gameArea = document.querySelector(".game-area");
-            if (gameArea.classList.contains("results-shown")){ /** Before it was possible to press result button, this code prevents that */
+            if (gameArea.classList.contains("results-shown")){ /** Before it was possible to press result buttons, this code prevents that */
                 return;
             }
         const playerInput = this.value;
         
+        /**
+         * Below code makes the computer choose a random option between the three options
+         */
         const computerOptions = ["Rock", "Paper", "Scissors"];
         const computerInput = computerOptions[Math.floor(Math.random() * 3)];
 
@@ -79,7 +85,7 @@ function compareInputs(playerInput, computerInput) {
 }
 
 /**
- * 
+ * Below code is for the results shown each round, has a timer that can be changed
  */
 function flashResults(gameResult, playerInput, computerInput) {
 	console.log(gameResult, playerInput,computerInput);
@@ -102,8 +108,7 @@ function flashResults(gameResult, playerInput, computerInput) {
 }
 
 /**
- * Now i want to add the score so either computer or player and set a limit 
- * to maybe first to 5 wins
+ * below code updates the score and when one has reached 5 points, winner is declared and game restarts
  */
 
 function updateScore() {
@@ -128,6 +133,9 @@ function checkWinner() {
     return false;
 }
 
+/**
+ * Below code is for displaying what the Rules button contains, also has timer so auto closes after 3 seconds currently
+ */
 const rule = document.querySelector(".rules-btn");
 const ruleStyles = document.querySelector(".rule-styles");
 rule.addEventListener("click", function () {
