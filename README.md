@@ -1,7 +1,7 @@
 # Rock Paper Scissors
 
 Rock Paper Scissors is an online game made to draw users in using eye catching colors and lets the players try their luck
-against a computer who chooses its options randomly. First to get 5 points wins the match! Compete againts friends or family members to see who can beat the computer!
+against a computer who chooses its options randomly. First to get 5 points wins the match! Compete against friends or family members to see who can beat the computer! Do you feel lucky?
 
 ![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Responsive%20design%20image.jpeg)
 
@@ -13,33 +13,15 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
   - The Header displays the games name: ROCK PAPER SCISSORS
 
-![Nav Bar](https://github.com/deagustinchristian/art-classes/blob/f61a8e2c163d60a2e39bd1f44e431d63e61a1cfd/assets/images/Nav%20bar%20ART%20CLASSES.jpeg)
+![Header](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/header.jpeg)
 
-- __The landing page image__
+-__The Game options__
 
-  - The landing page includes a background image with text overlay to welcome the visitor and let them now what this website is about.
-  - This section introduces the user to ART CLASSES and draws them in with a stunning background image.
+- The game clearly states that first to 5 points wins the match and urges the player to choose one of the images.
 
-![Landing Page](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/Art%20classes%20landing%20page.jpeg)
+- The ROCK PAPER SCISSORS buttons have hover effects so as soon as the player hovers over one of them it reacts and temps the player to press on it.
 
-- __About Us__
-
-  - The About Us section allows the user to briefly get to know each of the teachers and see what their specialties are. 
-  - Lovely profile pictures of each teacher along with a small description of each one will let the user know that Art Classes has something for everyone. 
-
-![About Us](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/About%20Us.jpeg)
-
-- __Classes & Sign Up section__
-
-  - This section allows for the User to fast and easy see where, when and by who the next classes are 
-  
-  - This section will be updated as these times and classes change to keep the user up to date.
-  
-  - The Sign Up section is positioned next to the Classes so that the User can fast and easy sign up for which ever class they wish to participate in without having to leave the site or scroll further away to sign up for a class.
-  
-  - The Sign Up form requires validation, Name, E-mail address and Class name in order to work, the Sign me Up! button has added hover effect and changes to same color as the navigation menu. 
-
-![Classes & Sign Up](https://github.com/deagustinchristian/art-classes/blob/176f1e6faab727d74b860d1fca00d7083f8e0b0b/assets/images/Classes&signup.jpeg)
+![Game options](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/header.jpeg)
 
 - __The Footer__ 
 
