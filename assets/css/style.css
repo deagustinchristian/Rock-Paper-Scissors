@@ -30,13 +30,20 @@ body {
     }
   }
 
+.game {
+    max-height: 100%;
+}
+
 /* title and score area */
 header {
-    display: flex;
     justify-content: center;
     padding: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
 }
 
 /* styling for the score box */
@@ -63,8 +70,8 @@ h2 {
 
 /* main game area  */
 .game-area {
-    width: 400px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     height: 345px;
     display: flex;
     flex-wrap: wrap-reverse;
@@ -87,7 +94,6 @@ h2 {
 
 .choose {
     text-align: center;
-    
 }
 
 /* Hides the result text until its called in JSc*/
