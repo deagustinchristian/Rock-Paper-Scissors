@@ -1,7 +1,7 @@
 # Rock Paper Scissors
 
-Rock Paper Scissors is an online game made to draw users in using eye catching colors and lets the players try their luck
-against a computer who chooses its options randomly. First to get 5 points wins the match! Compete against friends or family members to see who can beat the computer! Do you feel lucky?
+Rock Paper Scissors is an online game made to draw users in using eye-catching colors and lets the players try their luck
+against a computer that chooses its options randomly. The first to get 5 points wins the match! Compete against friends or family members to see who can beat the computer! Do you feel lucky?
 
 ![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Responsive%20design%20image.jpeg)
 
@@ -17,7 +17,7 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 - __The Game options__
 
-    - The game clearly states that first to 5 wins the match and urges the player to choose one of the images.
+    - The game clearly states that the first to 5 wins the match and urges the player to choose one of the images.
 
     - The ROCK PAPER SCISSORS buttons have hover effects so as soon as the player hovers over one of them it reacts and temps the player to press on it.
 
@@ -32,13 +32,13 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 ![Computer score](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Computer%20wins.jpeg)
 
-    - The match ends when either player or computer reaches 5 points and the game then automatically resets
+ - The match ends when either player or computer reaches 5 points and the game then automatically resets
 
 ![Final winner](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Player%20wins%20the%20match.jpeg)
 
 - __The Footer__ 
 
-    - Contains only the RULES button which when pressed upon shows the basic rules of the game and after a fixed amount of seconds dissapears until pressed upon again.
+    - Contains only the RULES button which when pressed upon shows the basic rules of the game and after a fixed amount of seconds disappears until pressed upon again.
 
 ![Footer](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Rules%20button.jpeg)
 
@@ -50,11 +50,11 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 ## Testing 
 
-- I have tested the site on Chrome, Safari and Firefox, both on my laptop and on my Iphone 12 Pro Max. The game works as it should on al lof them.
+- I have tested the site on Chrome, Safari, and Firefox, both on my laptop and my iPhone 12 Pro Max. The game works as it should on all of them, the score updates as it should, game shows winner or tie of each round as its supposed to do, and game resets when a player or the computer reaches 5 points.
 
-- Also, the website looks good and all functions work on Ipad Pro, Iphone 12 pro Max, Iphone X and MacBook Pro 15´.
+- Also, the website looks good and all functions work on Ipad Pro, iPhone 12 pro-Max, iPhone X, and MacBook Pro 15´.
 
-- Using the Devstools I can confirm this website is responsive, looks good and functions on all standard screen sizes.
+- Using the Devstools I can confirm this website is responsive, looks good, and functions on all standard screen sizes.
 
 ### Validator Testing 
 
@@ -70,12 +70,12 @@ against a computer who chooses its options randomly. First to get 5 points wins 
 
 ### Unfixed Bugs
 
-As far as I know there are no unfixed bugs. 
+As far as I know, there are no unfixed bugs. 
 
 ## Deployment
  
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - Go to Github and choose the correct repository, in this case it was ROCK-PAPER-SCISSORS
+  - Go to Github and choose the correct repository, in this case, it was ROCK-PAPER-SCISSORS
   - Then go to the SETTINGS tab
   - Then scroll down to where it says PAGES click on it
   - Here you go to SOURCE then select the MAIN or MASTER branch and press SAVE
@@ -92,18 +92,19 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
 
 - I have used different sources to learn and understand the coding and the concepts of JS, to better understand the concepts of the game and how to make it I studied the following websites and how they did
 
-    - This was really good to get a sense on how the game is built 
-    (https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+    - This website was really good to get a sense of how the game is built
+        - (https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
     
-    - I used code from this website for the compareInput parts and also for the game ending when the points reaches 5(https://sebhastian.com/rock-paper-scissors-javascript/)
+    - I used code from this website for the compareInput parts and also for the game-ending when the points reach 5
+        - (https://sebhastian.com/rock-paper-scissors-javascript/)
 
     - I learned more about the classList and how to use it via this website
-    (https://www.w3schools.com/jsref/prop_element_classlist.asp)
+        - (https://www.w3schools.com/jsref/prop_element_classlist.asp)
 
     - I learned how to hide and show elements via these websites
-    (https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)
-    (https://linuxhint.com/show-or-hide-an-element-on-website-using-javascript/)
-    (https://allyjs.io/tutorials/hiding-elements.html)
+        - (https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/)
+        - (https://linuxhint.com/show-or-hide-an-element-on-website-using-javascript/)
+        - (https://allyjs.io/tutorials/hiding-elements.html)
 
 
 
@@ -111,4 +112,4 @@ The live link can be found here - https://deagustinchristian.github.io/Rock-Pape
 
 - The images used for the ROCK PAPER SCISSORS SPOCK LIZARD buttons I found here (https://icon-library.com/icon/rock-paper-scissors-icon-5.html) and are free to use.
 
-- The short cut image/icon used is same image as used for the game button SCISSORS and converted to a short icon by using the following website [Favicon](https://favicon.io/)
+- The short cut image/icon used is the same image as used for the game button SCISSORS and converted to a short icon by using the following website [Favicon](https://favicon.io/)
