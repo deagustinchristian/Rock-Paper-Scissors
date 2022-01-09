@@ -1,18 +1,17 @@
 # Rock Paper Scissors
 
-Art Classes is a website for anyone interested in either learning how to make beautifull works of art whether it be by paint brush, with their hands molding clay or by using the keyboard on their computer. Art Classes offers something for everyone.
+Rock Paper Scissors is an online game made to draw users in using eye catching colors and lets the players try their luck
+against a computer who chooses its options randomly. First to get 5 points wins the match! Compete againts friends or family members to see who can beat the computer!
 
-![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/Lighthouse%20RPS%20game.jpeg)
+![Looking good on different devices](https://raw.githubusercontent.com/deagustinchristian/Rock-Paper-Scissors/main/assets/images/readme%20images/Responsive%20design%20image.jpeg)
 
 ## Features 
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - The full responsive navigation bar directs the user to the About Us section, Classes & Sign Up section and to the Contact Us and social media links section of the website.
-  - This allows the user to navigate the website fast and easy without ever having to leave the website except for the social media links, those open in a new tab.
-  - The logo and navigation menu is fixed so that when you scoll down it stays in place, always visible.
+  - The Header displays the games name: ROCK PAPER SCISSORS
 
 ![Nav Bar](https://github.com/deagustinchristian/art-classes/blob/f61a8e2c163d60a2e39bd1f44e431d63e61a1cfd/assets/images/Nav%20bar%20ART%20CLASSES.jpeg)
 
